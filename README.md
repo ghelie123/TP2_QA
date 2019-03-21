@@ -6,7 +6,7 @@
 
 4) docker pull mongo; docker run --name mongodb -d mongo
 
-5) docker build -t nginx_image .
+5) docker build -t dockerhubuser/jguweka:OAS3 .
 
 6) docker run -p 8080:8080 -p 8849:8849 --link mongodb:mongodb dockerhubuser/jguweka:OAS3
  
