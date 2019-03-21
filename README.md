@@ -1,8 +1,8 @@
 1) git clone https://github.com/ghelie123/TP2_QA.git
 
-2) mvn clean package jetty:run
+2) cd jguwekarest
 
-3) cd jguwekarest
+3) mvn clean package jetty:run
 
 4) docker pull mongo; docker run --name mongodb -d mongo
 
