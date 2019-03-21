@@ -1,3 +1,10 @@
+# Prerequisite
+
+You should have java, git, docker, docker.io, mongo and maven installed before trying to set up this project
+use :  'apt install <any>' to install any of these you don't have installed yet. 
+
+# Setup
+
 1) git clone https://github.com/ghelie123/TP2_QA.git
 
 2) cd jguwekarest
