@@ -1,7 +1,7 @@
 # Prerequisite
 
 You should have java, git, docker, docker.io, mongo and maven installed before trying to set up this project
-use :  'apt install <any>' to install any of these you don't have installed yet. 
+use :  `apt install <any>` to install any of these you don't have installed yet. 
 
 # Setup
 
