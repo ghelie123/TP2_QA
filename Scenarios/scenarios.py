@@ -3,7 +3,7 @@ from threading import Thread
 
 def scenario_one():
     for _ in range(10):
-        r = requests.get('http://localhost:8080/algorithm', params={})
+        r = requests.get('http://localhost:80/algorithm', params={})
         print(r)
 
 def scenario_two():
@@ -13,7 +13,7 @@ def scenario_two():
         'useKernelEstimator': (None, '0'),
     }
     for _ in range(10):
-        r = requests.post('http://localhost:8080/algorithm/NaiveBayes',files=files)
+        r = requests.post('http://localhost:80/algorithm/NaiveBayes',files=files)
         print(r.json())
 
 if __name__ == "__main__":
