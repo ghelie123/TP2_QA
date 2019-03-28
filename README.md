@@ -1,4 +1,4 @@
-# Prerequi
+# Prerequis
 
 Vous aurez besoin d'avoir installé java, git, docker, docker.io, python3, mongodb et maven avant de pouvoir setup ce projet  
 utilisez :  ```apt install <any>``` pour installer ce qui est requis. 
@@ -81,4 +81,6 @@ N.B: If docker container already running: docker start mongodb
 # Utiliser les Scénarios
 
 1) Naviguez au répertoire TP2_QA/Scenarios
+
+2) $ python3 scenarios.py
 
