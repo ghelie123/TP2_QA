@@ -26,36 +26,36 @@ N.B: If docker container already running: docker start mongodb
    Choisir "Direct network connection" to `localhost` Profiling port : `8849`
    Appuyer sur Open puis Sampling(Recommanded) -> Ok
 
-9) Démarer JMeter
-   File -> New
-   TestPlan -> Add -> Thread users -> Thread Group
-   Thread Group -> Add -> Sampler -> HTTPRequests
-   Thread Group -> Add Listener -> View Results Tree/Graph Results/View Results in a table
-   HttpRequest : 
-    Server Name or IP : Localhost:8080,
-    Method : GET, 
-    Path : /algorythm
+9) Démarer JMeter  
+   File -> New  
+   TestPlan -> Add -> Thread users -> Thread Group  
+   Thread Group -> Add -> Sampler -> HTTPRequests  
+   Thread Group -> Add Listener -> View Results Tree/Graph Results/View Results in a table  
+   HttpRequest :   
+    Server Name or IP : Localhost:8080,  
+    Method : GET,   
+    Path : /algorythm  
 
-   Répéter pour le scénario 2 avec 
-    Method : POST ,
-    Path : /algorythm/NaiveBayes
-    FileUpload : trouver le fichier dans le projet git /Scénarios/weather.arff
+   Répéter pour le scénario 2 avec   
+    Method : POST ,  
+    Path : /algorythm/NaiveBayes  
+    FileUpload : trouver le fichier dans le projet git /Scénarios/weather.arff  
     
-   Répéter scenario 1 pour le scénario 3 avec 
-    Propriété du Thread Group : 
-       Number of threads : 100
-       Loop : 10
-    Method : GET ,
-    Path : /algorythm
+   Répéter scenario 1 pour le scénario 3 avec   
+    Propriété du Thread Group :   
+       Number of threads : 100  
+       Loop : 10  
+    Method : GET ,  
+    Path : /algorythm  
     
-    Répéter scenario 2 pour le scénario 4 avec 
-    Propriété du Thread Group : 
-       Number of threads : 100
-       Loop : 10
-    Method : POST ,
-    Path : /algorythm/NaiveBayes
-    FileUpload : trouver le fichier dans le projet git /Scénarios/weather.arff
+    Répéter scenario 2 pour le scénario 4 avec   
+    Propriété du Thread Group :   
+       Number of threads : 100  
+       Loop : 10  
+    Method : POST ,  
+    Path : /algorythm/NaiveBayes  
+    FileUpload : trouver le fichier dans le projet git /Scénarios/weather.arff  
 
-*Voir vidéo pour plus de détails*
+*Voir vidéo pour plus de détails*  
 
 # Setup Q5
