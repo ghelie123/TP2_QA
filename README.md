@@ -21,10 +21,10 @@ N.B: If docker container already running: docker start mongodb
 
 7) Démarrer Jprofiler
 
-8) Appuyer sur session -> Quick Attach
-   Choisir le bouton radio "On another computer"
-   Choisir "Direct network connection" to `localhost` Profiling port : `8849`
-   Appuyer sur Open puis Sampling(Recommanded) -> Ok
+8) Appuyer sur session -> Quick Attach  
+   Choisir le bouton radio "On another computer"  
+   Choisir "Direct network connection" to `localhost` Profiling port : `8849`  
+   Appuyer sur Open puis Sampling(Recommanded) -> Ok  
 
 9) Démarer JMeter  
    - File -> New  
@@ -66,6 +66,6 @@ N.B: If docker container already running: docker start mongodb
 
 3) $ `docker stats`
 
-4) $ `docker compose up -d`
+4) $ `docker-compose up -d`
 
     *Make sure Scenrios codes target localhost:8080 for these questions*  
