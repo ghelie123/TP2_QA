@@ -9,6 +9,10 @@ services:
   jguweka:
     image: jguweka/jguweka:OAS3
     restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
     links:
       - "mongo:mongodb"
     expose:
