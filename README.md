@@ -84,5 +84,5 @@ N.B: If docker container already running: docker start mongodb
 
 2) $ `python3 scenarios.py`
 
-*Les scénarios sont numérottés de 1 à 4 et sont de plus en plus exigent pour les services déployés. Assurez vous d'avoir les bons ports dans le code scénarios.py lors de l'éxécution pour les 2 setups présentés 8080 pour les Q3 et Q4 et 80 pour les Q5 et Q6*
+*Les scénarios sont numérottés de 1 à 4 et sont de plus en plus exigeant pour les services déployés. Assurez vous d'avoir les bons ports dans le code scénarios.py lors de l'éxécution pour les 2 setups présentés 8080 pour les Q3 et Q4 et 80 pour les Q5 et Q6*
 
