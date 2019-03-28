@@ -64,21 +64,16 @@ N.B: If docker container already running: docker start mongodb
 
 2) Retourner à la racine du répertoire Git
 
-3) Installer docker-compose  
-    $ ```sudo curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose```  
-   
-   Appliquer les permissions  
-    $ `sudo chmod +x /usr/local/bin/docker-compose`  
-    $ `docker-compose --version`  
+3) $ `sudo apt install docker-compose`
 
-3) $ `docker stats`
+4) $ `docker stats`
 
-4) $ `docker-compose up -d`
+5) $ `docker-compose up -d`
 
-5) To scale up, use :  
+6) To scale up, use :  
    $ `docker-compose up -d --scale jguweka=4 --force-recreate`
    
-5) To scale down, use :  
+7) To scale down, use :  
    $ `docker-compose up -d --scale jguweka=1 --force-recreate`
 
     *Make sure Scenrios.py codes target localhost:80 for these questions*  
