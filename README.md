@@ -76,10 +76,10 @@ N.B: If docker container already running: docker start mongodb
 4) $ `docker-compose up -d`
 
 5) To scale up, use :  
-   $ `docker-compose up -d --scale jguweka=4 --force-recreate
+   $ `docker-compose up -d --scale jguweka=4 --force-recreate`
    
 5) To scale down, use :  
-   $ `docker-compose up -d --scale jguweka=1 --force-recreate
+   $ `docker-compose up -d --scale jguweka=1 --force-recreate`
 
     *Make sure Scenrios.py codes target localhost:80 for these questions*  
     
