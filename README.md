@@ -68,4 +68,4 @@ N.B: If docker container already running: docker start mongodb
 
 4) $ `docker-compose up -d`
 
-    *Make sure Scenrios codes target localhost:8080 for these questions*  
+    *Make sure Scenrios codes target localhost:80 for these questions*  
