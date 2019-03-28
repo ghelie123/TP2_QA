@@ -82,5 +82,5 @@ N.B: If docker container already running: docker start mongodb
 
 1) Naviguez au répertoire TP2_QA/Scenarios
 
-2) $ python3 scenarios.py
+2) $ `python3 scenarios.py`
 
