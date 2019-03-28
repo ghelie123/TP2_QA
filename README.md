@@ -1,7 +1,7 @@
-# Prerequisite
+# Prerequi
 
-You should have java, git, docker, docker.io, python3, mongodb and maven installed before trying to set up this project
-use :  ```apt install <any>``` to install any of these you don't have installed yet. 
+Vous aurez besoin d'avoir installé java, git, docker, docker.io, python3, mongodb et maven avant de pouvoir setup ce projet  
+utilisez :  ```apt install <any>``` pour installer ce qui est requis. 
 
 # Setup Q3 et Q4
 
@@ -56,16 +56,18 @@ N.B: If docker container already running: docker start mongodb
     - Path : /algorythm/NaiveBayes  
     - FileUpload : trouver le fichier dans le projet git /Scénarios/weather.arff  
 
-    *Make sure Scenrios codes target localhost:8080 for these questions*  
+    *Make sure Scenrios.py codes target localhost:80 for these questions*  
 
 # Setup Q5
 
-1) Stop and discard docker containers : mongo and jguweka:OSA3 previously added
+1) Stoppez et discarter les containeurs docker  : mongo et jguweka:OSA3 ajouté précédement
 
-2) Return to project root folder
+2) Retourner à la racine du répertoire Git
 
 3) $ `docker stats`
 
 4) $ `docker-compose up -d`
 
-    *Make sure Scenrios codes target localhost:80 for these questions*  
+    *Make sure Scenrios.py codes target localhost:80 for these questions*  
+    
+
