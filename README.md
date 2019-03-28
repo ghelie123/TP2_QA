@@ -5,17 +5,17 @@ use :  ```apt install <any>``` to install any of these you don't have installed 
 
 # Setup Q3 et Q4
 
-1) git clone https://github.com/ghelie123/TP2_QA.git
+1) $ `git clone https://github.com/ghelie123/TP2_QA.git`
 
-2) cd jguwekarest
+2) $ `cd jguwekarest`
 
-3) mvn clean package jetty:run
+3) $ `mvn clean package jetty:run`
 
-4) docker pull mongo; docker run --name mongodb -d mongo
+4) $ `docker pull mongo; docker run --name mongodb -d mongo`
 
-5) docker build -t dockerhubuser/jguweka:OAS3 .
+5) $ `docker build -t dockerhubuser/jguweka:OAS3 .`
 
-6) docker run -p 8080:8080 -p 8849:8849 --link mongodb:mongodb dockerhubuser/jguweka:OAS3
+6) $ `docker run -p 8080:8080 -p 8849:8849 --link mongodb:mongodb dockerhubuser/jguweka:OAS3`
  
 N.B: If docker container already running: docker start mongodb
 
@@ -56,6 +56,16 @@ N.B: If docker container already running: docker start mongodb
     - Path : /algorythm/NaiveBayes  
     - FileUpload : trouver le fichier dans le projet git /Scénarios/weather.arff  
 
-    *Voir vidéo pour plus de détails*  
+    *Make sure Scenrios codes target localhost:8080 for these questions*  
 
 # Setup Q5
+
+1) Stop and discard docker containers : mongo and jguweka:OSA3 previously added
+
+2) Return to project root folder
+
+3) $ `docker stats`
+
+4) $ `docker compose up -d`
+
+    *Make sure Scenrios codes target localhost:8080 for these questions*  
